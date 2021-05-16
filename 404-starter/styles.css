@@ -1,0 +1,51 @@
+body {
+color: #2f80ed;
+font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+img {
+display: block;
+width: 590px;
+height: 190px;
+margin: auto;
+top: 110px;
+}
+
+.text404 {
+display: block;
+font-size: 120px;
+line-height: 140px;
+font-weight: 400;
+width: 400px;
+height: 140px;
+margin: auto;
+text-align: center;
+padding-bottom: 10px;
+}
+
+.hide {
+font-size: 16px;
+line-height: 20px;
+font-weight: 400;
+width: 400px;
+opacity: 0;
+transition: opacity .4s ease-in-out;
+margin: auto;
+text-align: center;
+}
+.text404:hover + .hide {
+opacity: 1;
+}
+
+
+.textGoBack {
+position: fixed;
+bottom: 30px;
+display: block;
+font-size: 16px;
+line-height: 18px;
+font-weight: normal;
+width: 100%;
+margin: auto;
+text-align: center;
+}
